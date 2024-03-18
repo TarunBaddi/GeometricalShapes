@@ -1,4 +1,3 @@
-
 public class ShapeCalculator {
     public static double TriangleArea(double base, double height) {
         return 0.5 * base * height;
@@ -16,9 +15,9 @@ public class ShapeCalculator {
         return Math.pow(side, 2);
     }
 
-    public static void main(String[] args){
-        double triangleArea = TriangleArea(5,5);
-        double rectangleArea = RectangleArea(8,8);
+    public static void main(String[] args) {
+        double triangleArea = TriangleArea(5, 5);
+        double rectangleArea = RectangleArea(8, 8);
         double circleArea = CircleArea(7);
         double squareArea = SquareArea(4);
 
